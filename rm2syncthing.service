@@ -1,0 +1,9 @@
+[Unit]
+Description=rm2syncthing
+
+[Service]
+ExecStart=<PATH>/remarkable2_inotify.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
